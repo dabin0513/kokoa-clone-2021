@@ -19,14 +19,6 @@
 }
 
 .nav__notification {
-  background-color: tomato;
-  color: white;
-  width: 28px;
-  height: 28px;
-  border-radius: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   left: 15px;
   bottom: 12px;
@@ -38,5 +30,13 @@
   height: 6px;
   border-radius: 3px;
   position: absolute;
+}
+
+.ellipsis-noti {
   right: -5px;
+}
+
+.cog-noti {
+  right: 17px;
+  top: 47px;
 }

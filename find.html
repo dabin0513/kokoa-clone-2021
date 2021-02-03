@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find - DaviTalk</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>17:13</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header chat-screen__header">
+        <h1 class="header__title">Chats</h1>
+        <div class="header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span class="nav__noti cog-noti"></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+    </header>
+
+    <!-- find screen -->
+    <main class="main-screen">
+        <div class="find-icons">
+            <div class="find-icons__icon">
+                <i class="fas fa-qrcode"></i>
+                <span>QR Code</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="far fa-address-book"></i>
+                <span>Add by Contacts</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fas fa-fingerprint"></i>
+                <span>Add by ID</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="far fa-envelope"></i>
+                <span>Invite</span>
+            </div>
+
+        </div>
+        <div class="recommended-friends">
+            <h6 class="recommended-friends__title">Recommended Friends</h6>
+            <span>You have no recommended friends</span>
+        </div>
+        <div class="open-chat">
+            <div class="open-chat__header">
+                <h4>Open Chat</h4>
+                <span>Go to OpenChat Home 
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                </span>
+            </div>
+            <div class="open-post">
+                <div class="oepn-post__column">
+                    <h5 class="open-post__title">#Davi</h5>
+                    <h6 class="open-post__hashtags">#selca #selfie #daily</h6>
+                    <div class="open-post__members">
+                        <img src="https://user-images.githubusercontent.com/63287630/105631277-175a6100-5e91-11eb-892e-d30b63f8f708.png">
+                        <span class="open-post__members-count">82 members</span>
+                        <div class="divider"></div>
+                        <span class="open-post__members-status">Active</span>
+                    </div>
+                </div>
+                <div class="oepn-post__column">
+                    <div class="open-post__photo">
+                        <img src="https://user-images.githubusercontent.com/63287630/106758825-52b91480-6675-11eb-8bbe-482d9ae21498.png">
+                        <div class="open-post__heart-count">
+                            <i class="fas fa-heart fa-xs"></i>
+                            <span>85</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--nav-->
+    <nav class="nav">
+        <ul class="nav__list">
+            <!--friends-->
+            <li class="nav__btn"> 
+                <a class="nav__link" href="friends.html">
+                    <i class="far fa-user fa-2x"></i>
+                </a>
+            </li>
+            <!--chats-->
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <!--find-->
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">   
+                    <i class="fas fa-search fa-2x"></i>
+                </a>
+            </li>
+            <!--more-->
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__noti ellipsis-noti"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <script
+        src="https://kit.fontawesome.com/6478f529f2.js"
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>

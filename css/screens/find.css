@@ -97,3 +97,21 @@
   right: 7px;
   font-size: 12px;
 }
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+  }
+  50% {
+    color: rgb(245, 151, 167);
+    transform: scale(2);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  animation: heartBeat 1s linear infinite;
+}
